@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido Mi Tienda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Incluim manualment una capçalera simplificada o podem usar header.php si volem, 
+         pero donat que es un html static, faré una estructura simple. 
+         (Nota: header.php es php, així que des de index.html no es pot fer include directament sense configurar Apache,
+          per tant, poso enllaços directes aquí o recomano canviar a index.php. 
+          Seguint instruccions: index.html portada sencilla.) 
+    -->
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html" style="font-size: 1.5em; font-weight: bold; margin:0;">Mi Tienda</a>
+            </div>
+            <div class="menu">
+                <a href="login.php">Iniciar Sesión</a>
+                <a href="register.php">Registrarse</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" style="text-align: center; margin-top: 50px;">
+        <h1>Bienvenido a nuestra Tienda Online</h1>
+        <p>Los mejores productos a los mejores precios.</p>
+        <br>
+        <p>Por favor, inicia sesión para ver nuestro catálogo y realizar compras.</p>
+        <br>
+        <a href="login.php"><button>Entrar ahora</button></a>
+    </div>
+
+</body>
+
+</html>
